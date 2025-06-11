@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.Host", "ToDo.Host\ToDo.Host.csproj", "{9C7CC05B-930D-49ED-86B6-6B8F716786EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6CAEBBC6-0866-4969-BD80-8C052160DD57}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		Dockerfile = Dockerfile
+		.dockerignore = .dockerignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.Application", "ToDo.Application\ToDo.Application.csproj", "{E8CBA18A-556A-4CAB-9399-BC467E21E19C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.Presentation", "ToDo.Presentation\ToDo.Presentation.csproj", "{92F2A1DD-A1BB-497B-8404-D29A5B93D6BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{EFBFE34A-9EF2-417F-B010-BE0373477B4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.Infrastructure.Postgres", "ToDo.Infrastructure.Postgres\ToDo.Infrastructure.Postgres.csproj", "{857EA6D4-5872-435E-B3DE-343A0D9A51B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.Infrastructure.Migrator", "ToDo.Infrastructure.Migrator\ToDo.Infrastructure.Migrator.csproj", "{5FB3B213-C613-46ED-B635-14F8C357E55E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.Domain", "ToDo.Domain\ToDo.Domain.csproj", "{09D50AE3-2E56-45EB-AB83-551A211881EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.Shared", "ToDo.Shared\ToDo.Shared.csproj", "{996BDD9A-C42C-4C54-AD92-974E9DC078AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C7CC05B-930D-49ED-86B6-6B8F716786EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C7CC05B-930D-49ED-86B6-6B8F716786EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C7CC05B-930D-49ED-86B6-6B8F716786EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C7CC05B-930D-49ED-86B6-6B8F716786EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8CBA18A-556A-4CAB-9399-BC467E21E19C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8CBA18A-556A-4CAB-9399-BC467E21E19C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8CBA18A-556A-4CAB-9399-BC467E21E19C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8CBA18A-556A-4CAB-9399-BC467E21E19C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92F2A1DD-A1BB-497B-8404-D29A5B93D6BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92F2A1DD-A1BB-497B-8404-D29A5B93D6BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92F2A1DD-A1BB-497B-8404-D29A5B93D6BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92F2A1DD-A1BB-497B-8404-D29A5B93D6BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{857EA6D4-5872-435E-B3DE-343A0D9A51B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{857EA6D4-5872-435E-B3DE-343A0D9A51B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{857EA6D4-5872-435E-B3DE-343A0D9A51B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{857EA6D4-5872-435E-B3DE-343A0D9A51B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FB3B213-C613-46ED-B635-14F8C357E55E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FB3B213-C613-46ED-B635-14F8C357E55E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FB3B213-C613-46ED-B635-14F8C357E55E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FB3B213-C613-46ED-B635-14F8C357E55E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09D50AE3-2E56-45EB-AB83-551A211881EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09D50AE3-2E56-45EB-AB83-551A211881EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09D50AE3-2E56-45EB-AB83-551A211881EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09D50AE3-2E56-45EB-AB83-551A211881EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{996BDD9A-C42C-4C54-AD92-974E9DC078AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{996BDD9A-C42C-4C54-AD92-974E9DC078AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{996BDD9A-C42C-4C54-AD92-974E9DC078AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{996BDD9A-C42C-4C54-AD92-974E9DC078AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{857EA6D4-5872-435E-B3DE-343A0D9A51B6} = {EFBFE34A-9EF2-417F-B010-BE0373477B4C}
+		{5FB3B213-C613-46ED-B635-14F8C357E55E} = {EFBFE34A-9EF2-417F-B010-BE0373477B4C}
+	EndGlobalSection
+EndGlobal

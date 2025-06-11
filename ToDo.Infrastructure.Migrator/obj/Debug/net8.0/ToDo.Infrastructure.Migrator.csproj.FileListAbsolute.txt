@@ -1,0 +1,12 @@
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Infrastructure.Migrator\bin\Debug\net8.0\ToDo.Infrastructure.Migrator.deps.json
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Infrastructure.Migrator\bin\Debug\net8.0\ToDo.Infrastructure.Migrator.dll
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Infrastructure.Migrator\bin\Debug\net8.0\ToDo.Infrastructure.Migrator.pdb
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Infrastructure.Migrator\obj\Debug\net8.0\ToDo.Infrastructure.Migrator.csproj.AssemblyReference.cache
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Infrastructure.Migrator\obj\Debug\net8.0\ToDo.Infrastructure.Migrator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Infrastructure.Migrator\obj\Debug\net8.0\ToDo.Infrastructure.Migrator.AssemblyInfoInputs.cache
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Infrastructure.Migrator\obj\Debug\net8.0\ToDo.Infrastructure.Migrator.AssemblyInfo.cs
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Infrastructure.Migrator\obj\Debug\net8.0\ToDo.Infrastructure.Migrator.csproj.CoreCompileInputs.cache
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Infrastructure.Migrator\obj\Debug\net8.0\ToDo.Infrastructure.Migrator.dll
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Infrastructure.Migrator\obj\Debug\net8.0\refint\ToDo.Infrastructure.Migrator.dll
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Infrastructure.Migrator\obj\Debug\net8.0\ToDo.Infrastructure.Migrator.pdb
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Infrastructure.Migrator\obj\Debug\net8.0\ref\ToDo.Infrastructure.Migrator.dll

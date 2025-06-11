@@ -1,0 +1,17 @@
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Application\bin\Debug\net8.0\ToDo.Application.deps.json
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Application\bin\Debug\net8.0\ToDo.Application.dll
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Application\bin\Debug\net8.0\ToDo.Application.pdb
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Application\bin\Debug\net8.0\ToDo.Domain.dll
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Application\bin\Debug\net8.0\ToDo.Shared.dll
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Application\bin\Debug\net8.0\ToDo.Domain.pdb
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Application\bin\Debug\net8.0\ToDo.Shared.pdb
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Application\obj\Debug\net8.0\ToDo.Application.csproj.AssemblyReference.cache
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Application\obj\Debug\net8.0\ToDo.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Application\obj\Debug\net8.0\ToDo.Application.AssemblyInfoInputs.cache
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Application\obj\Debug\net8.0\ToDo.Application.AssemblyInfo.cs
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Application\obj\Debug\net8.0\ToDo.Application.csproj.CoreCompileInputs.cache
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Application\obj\Debug\net8.0\ToDo.App.AD959D57.Up2Date
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Application\obj\Debug\net8.0\ToDo.Application.dll
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Application\obj\Debug\net8.0\refint\ToDo.Application.dll
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Application\obj\Debug\net8.0\ToDo.Application.pdb
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Application\obj\Debug\net8.0\ref\ToDo.Application.dll

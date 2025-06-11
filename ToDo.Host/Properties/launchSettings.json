@@ -1,0 +1,16 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "ToDo.Backend": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "POSTGRES_CONNECTION_STRING": "Server=localhost;Port=1430;User Id=admin;Password=admin;Database=ToDoPostgresTest;SearchPath=todo_schema;Include Error Detail=true"
+      }
+    }
+  }
+}

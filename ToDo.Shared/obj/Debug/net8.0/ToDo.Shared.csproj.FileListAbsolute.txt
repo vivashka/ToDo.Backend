@@ -1,0 +1,11 @@
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Shared\bin\Debug\net8.0\ToDo.Shared.deps.json
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Shared\bin\Debug\net8.0\ToDo.Shared.dll
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Shared\bin\Debug\net8.0\ToDo.Shared.pdb
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Shared\obj\Debug\net8.0\ToDo.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Shared\obj\Debug\net8.0\ToDo.Shared.AssemblyInfoInputs.cache
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Shared\obj\Debug\net8.0\ToDo.Shared.AssemblyInfo.cs
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Shared\obj\Debug\net8.0\ToDo.Shared.csproj.CoreCompileInputs.cache
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Shared\obj\Debug\net8.0\ToDo.Shared.dll
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Shared\obj\Debug\net8.0\refint\ToDo.Shared.dll
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Shared\obj\Debug\net8.0\ToDo.Shared.pdb
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Shared\obj\Debug\net8.0\ref\ToDo.Shared.dll

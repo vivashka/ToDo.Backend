@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "l8psI+VINz9NRpKbaoIJBIUfQzOX31YZbMOeKlN9cnhzcVp/EHVYTgkx3Sp/yJVOeTGvPV4GNZZ536N98tdxqg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vovac\\RiderProjects\\ToDo.Backend\\ToDo.Application\\ToDo.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vovac\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
