@@ -35,9 +35,10 @@ public class UserService : IUserService
         try
         {
             var user = await _postgresUserProvider.Authenticate(login, CancellationToken.None);
-            var curHash = CreateMd5(password + login, Encoding.GetEncoding(866));
             
-            if (user.Password == curHash)
+            var realHash = CreateMd5(user.Password + user.Login, Encoding.GetEncoding(866));
+            
+            if (realHash.ToLower() == password)
             {
                 return OperationResult<User>.Success(user);
             }

@@ -6,7 +6,7 @@ public record ToDoItem
 {
     public Guid ToDoId { get; init; }
 
-    public string? Description { get; init; } = string.Empty;
+    public string? Description { get; init; }
     
     public bool? IsCompleted { get; init; }
     

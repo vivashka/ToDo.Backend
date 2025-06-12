@@ -26,12 +26,12 @@ public class ToDoItemsRepository : BaseRepository, IToDoItemsRepository
         Guid toDoId = toDoItem.ToDoId != Guid.Empty ? toDoItem.ToDoId : Guid.NewGuid();
         
         string sqlRequest = """
-                            INSERT INTO "ToDoItems" td
-                            VALUES (@ToDoId, @Description, @IsCompeted, @IsImportant, @Deadline, @UserId, @Category)
+                            INSERT INTO "ToDoItems" as td
+                            VALUES (@ToDoId, @Description, @IsCompleted, @IsImportant, @Deadline, @UserId, @Category)
                                 ON CONFLICT ("ToDoId")
                             DO UPDATE SET
                                 "Description" = COALESCE(EXCLUDED."Description", td."Description"),
-                                "IsCompeted" = COALESCE(EXCLUDED."IsCompeted", td."IsCompeted"),
+                                "IsCompleted" = COALESCE(EXCLUDED."IsCompleted", td."IsCompleted"),
                                 "IsImportant" = COALESCE(EXCLUDED."IsImportant", td."IsImportant"),
                                 "Deadline" = COALESCE(EXCLUDED."Deadline", td."Deadline"),
                                 "Category" = COALESCE(EXCLUDED."Category", td."Category")
@@ -62,7 +62,7 @@ public class ToDoItemsRepository : BaseRepository, IToDoItemsRepository
     {
         string sqlRequest = """
                             DELETE FROM "ToDoItems"
-                            WHERE "ItemId" = @ItemId
+                            WHERE "ToDoId" = @ItemId
                             RETURNING *;
                             """;
 

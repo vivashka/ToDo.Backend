@@ -73,7 +73,6 @@ public class ToDoItemsController : ControllerBase
     }
     
     [HttpPut]
-    [Route("{id:guid}")]
     [ProducesResponseType(typeof(OperationResult<bool>), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(OperationResult<bool>), StatusCodes.Status400BadRequest)]
     public async Task<IActionResult> UpdateItem([FromBody] ToDoItem toDoItem)
