@@ -12,15 +12,15 @@ public class UserRepository : BaseRepository, IUserRepository
         Guid userId = Guid.NewGuid();
         
         string sqlRequest = """
-                            INSERT INTO "Users" td
+                            INSERT INTO "Users"
                             VALUES (@UserId, @Login, @Password, @FullName)
                             RETURNING *;
                             """;
 
         var param = new DynamicParameters(user);
-        param.Add("ToDoId", userId);
+        param.Add("UserId", userId);
 
-        return await ExecuteNonQueryAsync<User>(sqlRequest, param, cancellationToken) ?? throw new InvalidOperationException();
+        return await ExecuteQuerySingleAsync<User>(sqlRequest, param, cancellationToken) ?? throw new InvalidOperationException();
     }
 
     public async Task<User?> Authenticate(string login, CancellationToken cancellationToken)
@@ -34,6 +34,6 @@ public class UserRepository : BaseRepository, IUserRepository
         var param = new DynamicParameters();
         param.Add("Login", login);
 
-        return await ExecuteNonQueryAsync<User>(sqlRequest, param, cancellationToken);
+        return await ExecuteQuerySingleAsync<User>(sqlRequest, param, cancellationToken);
     }
 }

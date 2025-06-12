@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ToDo.Infrastructure.Postgres")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c3eee46b0276ad3c4013163da2fc2a8aa60a747")]
 [assembly: System.Reflection.AssemblyProductAttribute("ToDo.Infrastructure.Postgres")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ToDo.Infrastructure.Postgres")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

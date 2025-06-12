@@ -140,4 +140,4 @@ C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Host\bin\Debug\net8.0\Dapper.dll
 C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Host\bin\Debug\net8.0\Npgsql.dll
 C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Host\bin\Debug\net8.0\ToDo.Infrastructure.Postgres.dll
 C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Host\bin\Debug\net8.0\ToDo.Infrastructure.Postgres.pdb
-C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Host\bin\Debug\net8.0\System.Reflection.Metadata.dll
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Host\obj\Debug\net8.0\ToDo.Host.sourcelink.json

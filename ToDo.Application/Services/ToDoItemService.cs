@@ -26,12 +26,12 @@ public class ToDoItemService : IToDoItemService
             }
             return new OperationResult<ToDoItem[]>(
                 true,
-                items, (200, "Не удалось найти заметки"));
+                items, new ErrorActionResult(200, "Не удалось найти заметки"));
         }
         catch (Exception exception)
         {
             Console.WriteLine(exception.Message);
-            return OperationResult<ToDoItem[]>.Failure((400, "Произошла не предвиденная ошибка " + exception.Message));
+            return OperationResult<ToDoItem[]>.Failure(new ErrorActionResult(400, "Произошла не предвиденная ошибка " + exception.Message));
         }
     }
 
@@ -46,7 +46,7 @@ public class ToDoItemService : IToDoItemService
         catch (Exception exception)
         {
             Console.WriteLine(exception.Message);
-            return OperationResult<bool>.Failure((400, "Произошла не предвиденная ошибка " + exception.Message));
+            return OperationResult<bool>.Failure(new ErrorActionResult(400, "Произошла не предвиденная ошибка " + exception.Message));
         }
     }
 
@@ -62,12 +62,12 @@ public class ToDoItemService : IToDoItemService
             }
             return new OperationResult<ToDoItem?>(
                 true,
-                item, (200, "Не удалось найти заметку"));
+                item, new ErrorActionResult(200, "Не удалось найти заметку"));
         }
         catch (Exception exception)
         {
             Console.WriteLine(exception.Message);
-            return OperationResult<ToDoItem?>.Failure((400, "Произошла не предвиденная ошибка " + exception.Message));
+            return OperationResult<ToDoItem?>.Failure(new ErrorActionResult(400, "Произошла не предвиденная ошибка " + exception.Message));
         }
     }
 
@@ -82,7 +82,7 @@ public class ToDoItemService : IToDoItemService
         catch (Exception exception)
         {
             Console.WriteLine(exception.Message);
-            return OperationResult<bool>.Failure((400, "Произошла не предвиденная ошибка " + exception.Message));
+            return OperationResult<bool>.Failure(new ErrorActionResult(400, "Произошла не предвиденная ошибка " + exception.Message));
         }
     }
 }

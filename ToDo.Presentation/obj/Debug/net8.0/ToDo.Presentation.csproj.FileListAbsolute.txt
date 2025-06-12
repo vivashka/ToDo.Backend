@@ -17,3 +17,4 @@ C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Presentation\obj\Debug\net8.0\ToD
 C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Presentation\obj\Debug\net8.0\refint\ToDo.Presentation.dll
 C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Presentation\obj\Debug\net8.0\ToDo.Presentation.pdb
 C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Presentation\obj\Debug\net8.0\ref\ToDo.Presentation.dll
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Presentation\obj\Debug\net8.0\ToDo.Presentation.sourcelink.json

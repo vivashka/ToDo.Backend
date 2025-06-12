@@ -9,3 +9,4 @@ C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Domain\obj\Debug\net8.0\ToDo.Doma
 C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Domain\obj\Debug\net8.0\refint\ToDo.Domain.dll
 C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Domain\obj\Debug\net8.0\ToDo.Domain.pdb
 C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Domain\obj\Debug\net8.0\ref\ToDo.Domain.dll
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Domain\obj\Debug\net8.0\ToDo.Domain.sourcelink.json

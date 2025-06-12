@@ -10,3 +10,4 @@ C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Infrastructure.Migrator\obj\Debug
 C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Infrastructure.Migrator\obj\Debug\net8.0\refint\ToDo.Infrastructure.Migrator.dll
 C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Infrastructure.Migrator\obj\Debug\net8.0\ToDo.Infrastructure.Migrator.pdb
 C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Infrastructure.Migrator\obj\Debug\net8.0\ref\ToDo.Infrastructure.Migrator.dll
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Infrastructure.Migrator\obj\Debug\net8.0\ToDo.Infrastructure.Migrator.sourcelink.json

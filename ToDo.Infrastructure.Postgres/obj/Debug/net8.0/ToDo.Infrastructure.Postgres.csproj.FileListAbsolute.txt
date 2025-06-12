@@ -19,3 +19,4 @@ C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Infrastructure.Postgres\obj\Debug
 C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Infrastructure.Postgres\obj\Debug\net8.0\refint\ToDo.Infrastructure.Postgres.dll
 C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Infrastructure.Postgres\obj\Debug\net8.0\ToDo.Infrastructure.Postgres.pdb
 C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Infrastructure.Postgres\obj\Debug\net8.0\ref\ToDo.Infrastructure.Postgres.dll
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Infrastructure.Postgres\obj\Debug\net8.0\ToDo.Infrastructure.Postgres.sourcelink.json

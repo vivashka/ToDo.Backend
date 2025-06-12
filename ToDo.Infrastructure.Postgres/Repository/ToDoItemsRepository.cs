@@ -41,7 +41,7 @@ public class ToDoItemsRepository : BaseRepository, IToDoItemsRepository
         var param = new DynamicParameters(toDoItem);
         param.Add("ToDoId", toDoId);
 
-        return await ExecuteNonQueryAsync<ToDoItem>(sqlRequest, param, cancellationToken);
+        return await ExecuteQuerySingleAsync<ToDoItem>(sqlRequest, param, cancellationToken);
     }
 
     public async Task<ToDoItem?> GetItem(Guid itemId, CancellationToken cancellationToken)
@@ -55,7 +55,7 @@ public class ToDoItemsRepository : BaseRepository, IToDoItemsRepository
         var param = new DynamicParameters();
         param.Add("ItemId", itemId);
 
-        return await ExecuteNonQueryAsync<ToDoItem>(sqlRequest, param, cancellationToken);
+        return await ExecuteQuerySingleAsync<ToDoItem>(sqlRequest, param, cancellationToken);
     }
 
     public async Task<ToDoItem> DeleteItem(Guid itemId, CancellationToken cancellationToken)

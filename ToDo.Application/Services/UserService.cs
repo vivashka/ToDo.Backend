@@ -26,7 +26,7 @@ public class UserService : IUserService
         }
         catch (Exception exception)
         {
-            return OperationResult<User>.Failure((400, "Произошла непредвиденная ошибка" + exception.Message));
+            return OperationResult<User>.Failure(new ErrorActionResult(400, "Произошла непредвиденная ошибка" + exception.Message));
         }
     }
 
@@ -41,12 +41,12 @@ public class UserService : IUserService
             {
                 return OperationResult<User>.Success(user);
             }
-            return OperationResult<User>.Failure((200, "Не верный пароль"));
+            return OperationResult<User>.Failure(new ErrorActionResult(200, "Не верный пароль"));
            
         }
         catch (Exception exception)
         {
-            return OperationResult<User>.Failure((400, "Произошла непредвиденная ошибка" + exception.Message));
+            return OperationResult<User>.Failure(new ErrorActionResult(400, "Произошла непредвиденная ошибка" + exception.Message));
         }
     }
     

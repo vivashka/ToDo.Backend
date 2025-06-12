@@ -15,3 +15,4 @@ C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Application\obj\Debug\net8.0\ToDo
 C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Application\obj\Debug\net8.0\refint\ToDo.Application.dll
 C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Application\obj\Debug\net8.0\ToDo.Application.pdb
 C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Application\obj\Debug\net8.0\ref\ToDo.Application.dll
+C:\Users\vovac\RiderProjects\ToDo.Backend\ToDo.Application\obj\Debug\net8.0\ToDo.Application.sourcelink.json
